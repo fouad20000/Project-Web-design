@@ -1,17 +1,17 @@
 // ===== ITEMS =====
 const items = [
-  { id: "blink_dagger", name: "Blink Dagger", image: "images\Blink Dagger.png", category: "Mobility", type: "Mobility", description: "Short-distance teleport for instant positioning.", price: 2250, action: "buy", stock: 5 },
-  { id: "bkb", name: "Black King Bar", image: "images\BlackKingbar.png", category: "Strength", type: "Core / Defensive", description: "Spell immunity for initiating and team fights.", price: 4050, action: "sell", stock: 3 },
-  { id: "shadow_blade", name: "Shadow Blade", image: "images\Shadowblade.png", category: "Agility", type: "Initiation / Damage", description: "Temporary invisibility and bonus damage on hit.", price: 3000, action: "sell", stock: 4 },
-  { id: "force_staff", name: "Force Staff", image: "images\Forcestaff.png", category: "Mobility", type: "Support / Mobility", description: "Push units in the direction they are facing.", price: 2200, action: "buy", stock: 6 },
-  { id: "mekansm", name: "Mekansm", image: "images\Mekanesm.png", category: "Intelligence", type: "Support", description: "Team heal and armor aura.", price: 1775, action: "sell", stock: 5 },
-  { id: "ac", name: "Assault Cuirass", image: "images\Assault.png", category: "Strength", type: "Armor / Attack Speed", description: "Armor aura and attack speed for your team.", price: 5125, action: "buy", stock: 2 },
-  { id: "aghanims", name: "Aghanim's Scepter", image: "images\aghs.png", category: "Intelligence", type: "Core / Upgrade", description: "Upgrades your ultimate or grants a new ability.", price: 4200, action: "sell", stock: 4 },
-  { id: "glimmer_cape", name: "Glimmer Cape", image: "images\Glimmercape.png", category: "Intelligence", type: "Support / Utility", description: "Invisibility and magic resistance buff.", price: 1950, action: "buy", stock: 7 },
-  { id: "heart", name: "Heart of Tarrasque", image: "images\heart.png", category: "Strength", type: "Tank / Core", description: "Huge HP and regen for frontliners.", price: 5200, action: "sell", stock: 1 },
-  { id: "mkb", name: "Monkey King Bar", image: "images\MonkeyKingBar.png", category: "Agility", type: "Damage", description: "True strike and bonus damage versus evasive heroes.", price: 4975, action: "buy", stock: 3 },
-  { id: "linkens", name: "Linken's Sphere", image: "images\Linken.png", category: "Intelligence", type: "Defensive", description: "Blocks single-target spells.", price: 4600, action: "sell", stock: 2 },
-  { id: "guardian_greaves", name: "Guardian Greaves", image: "images\Gaurd.png", category: "Intelligence", type: "Support / Aura", description: "Strong team heal + dispel.", price: 4950, action: "buy", stock: 3 }
+  { id: "blink_dagger", name: "Blink Dagger", image: "../images/Blink Dagger.png", category: "Mobility", type: "Mobility", description: "Short-distance teleport for instant positioning.", price: 2250, action: "buy", stock: 5 },
+  { id: "bkb", name: "Black King Bar", image: "../images/BlackKingbar.png", category: "Strength", type: "Core / Defensive", description: "Spell immunity for initiating and team fights.", price: 4050, action: "sell", stock: 3 },
+  { id: "shadow_blade", name: "Shadow Blade", image: "../images/Shadowblade.png", category: "Agility", type: "Initiation / Damage", description: "Temporary invisibility and bonus damage on hit.", price: 3000, action: "sell", stock: 4 },
+  { id: "force_staff", name: "Force Staff", image: "../images/Foreststaff.png", category: "Mobility", type: "Support / Mobility", description: "Push units in the direction they are facing.", price: 2200, action: "buy", stock: 6 },
+  { id: "mekansm", name: "Mekansm", image: "../images/Mekanesm.png", category: "Intelligence", type: "Support", description: "Team heal and armor aura.", price: 1775, action: "sell", stock: 5 },
+  { id: "ac", name: "Assault Cuirass", image: "../images/Assault.png", category: "Strength", type: "Armor / Attack Speed", description: "Armor aura and attack speed for your team.", price: 5125, action: "buy", stock: 2 },
+  { id: "aghanims", name: "Aghanim's Scepter", image: "../images/aghs.png", category: "Intelligence", type: "Core / Upgrade", description: "Upgrades your ultimate or grants a new ability.", price: 4200, action: "sell", stock: 4 },
+  { id: "glimmer_cape", name: "Glimmer Cape", image: "../images/Glimmercape.png", category: "Intelligence", type: "Support / Utility", description: "Invisibility and magic resistance buff.", price: 1950, action: "buy", stock: 7 },
+  { id: "heart", name: "Heart of Tarrasque", image: "../images/heart.png", category: "Strength", type: "Tank / Core", description: "Huge HP and regen for frontliners.", price: 5200, action: "sell", stock: 1 },
+  { id: "mkb", name: "Monkey King Bar", image: "../images/MonkeyKingBar.png", category: "Agility", type: "Damage", description: "True strike and bonus damage versus evasive heroes.", price: 4975, action: "buy", stock: 3 },
+  { id: "linkens", name: "Linken's Sphere", image: "../images/Linken.png", category: "Intelligence", type: "Defensive", description: "Blocks single-target spells.", price: 4600, action: "sell", stock: 2 },
+  { id: "guardian_greaves", name: "Guardian Greaves", image: "../images/Gaurd.png", category: "Intelligence", type: "Support / Aura", description: "Strong team heal + dispel.", price: 4950, action: "buy", stock: 3 }
 ];
 
 // ===== STATE =====
